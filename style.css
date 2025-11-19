@@ -317,12 +317,37 @@ body {
     }
 }
 #three-main-img{
-    height: 100%;
+    height: 95%;
     width:25% ;
+    /* border: 5px solid black; */
     position: absolute;
     left: 37%;
     top: 270px;
-    transition: transform 3s ease;
+    transition: transform 4s ease;
+}
+#three-main-img img{
+  height: 100%;
+  width: 100%;
+}
+.three-card9{
+    height: 130px;
+    width: 120px;
+    /* border: 2px solid red; */
+    border-radius: 24px;
+    position: absolute;
+    bottom:19%;
+    right:33%;
+    box-shadow: 1px 1px 10px 1px  rgb(185, 185, 185);
+    img{
+        height: 70%;
+        width: 100%;
+    }
+    h5{
+        font-family: z6;
+        text-align: center;
+        color: #293142;
+        font-size: 16px;
+    }
 }
 .three-card1{
     height: 130px;
@@ -488,26 +513,7 @@ body {
         font-size: 18px;
     }
 }
-.three-card9{
-    height: 130px;
-    width: 120px;
-    /* border: 2px solid red; */
-    border-radius: 24px;
-    position: absolute;
-    bottom:12%;
-    right:46%;
-    box-shadow: 1px 1px 10px 1px  rgb(185, 185, 185);
-    img{
-        height: 70%;
-        width: 100%;
-    }
-    h5{
-        font-family: z6;
-        text-align: center;
-        color: #293142;
-        font-size: 18px;
-    }
-}
+
 
 /* FOUR---------------------------------------------------------------------------------------------- */
 
@@ -944,7 +950,7 @@ h5{
   right:8%;
   top: 90%;
   /* bottom: 0px; */
-  transition: translateY 5s ease;
+  transition: transform 5s ease-out;
 }
 #scan img{
   height: 100%;
@@ -1395,7 +1401,32 @@ bottom: 0px;
 }
 #img-container3:hover{
     #three-main-img{
-        transform: translateY(-150px);
+        transform: translateY(-200px);
+    }
+}
+#three-main-img{
+    height: 50%;
+    width:25% ;
+    /* border: 5px solid black; */
+    position: absolute;
+    left: 37%;
+    top: 270px;
+    transition: transform 4s ease;
+}
+#three-main-img img{
+  height: 100%;
+  width: 100%;
+}
+ .three-card9{
+     height: 100px;
+    width: 100px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 24%;
+    left:14%;
+    box-shadow: 1px 1px 10px 1px  rgb(185, 185, 185);
+    h5{
+        font-size: 15px;
     }
 }
 #three-main-img{
@@ -1502,18 +1533,7 @@ bottom: 0px;
         font-size: 15px;
     }
 }
-.three-card9{
-     height: 100px;
-    width: 100px;
-    /* border: 2px solid red; */
-    position: absolute;
-    top: 25%;
-    left:37%;
-    box-shadow: 1px 1px 10px 1px  rgb(185, 185, 185);
-    h5{
-        font-size: 15px;
-    }
-}
+
 /* FOUR---------------------------------------------------------------------------------------------- */
 
 #four{
