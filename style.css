@@ -1130,6 +1130,7 @@ body {
     background-color: red;
   height: 50px;
   width: 190px;
+  margin-left: 10px;
 }
 #video-content h1 {
   font-family: z1;
@@ -1158,7 +1159,7 @@ body {
   transition: scale 2s ease-in-out;
 }
 #scroll {
-left: 120px;
+left: 140px;
 bottom: 0px;
 }
 @keyframes bounce {
@@ -1166,7 +1167,7 @@ bottom: 0px;
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-26px);
   }
   100% {
     transform: translateY(0);
@@ -2070,54 +2071,7 @@ footer{
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
